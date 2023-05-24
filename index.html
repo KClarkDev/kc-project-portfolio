@@ -26,7 +26,7 @@
             <button type="button" class="button"><a href="#about-me">About Me</a></button>
             <button type="button" class="button"><a href="#projects">My Work</a></button>
             <button type="button" class="button"><a href="#contact">Contact Me</a></button>
-            <button type="button" class="button"><a href="#">Resume</a></button>
+            <button type="button" class="button"><a href="https://docs.google.com/document/d/1vFLJ9oneScSPiOIf_aI_uFydCIx_3eKd/edit?usp=sharing&ouid=103731643921125893829&rtpof=true&sd=true" target="_blank">Resume</a></button><!--Link to Google Doc is temporary. Eventually, this should lead to an embedded PDF-->
         </nav>
       </div>
       
@@ -36,7 +36,11 @@
     <main class="container">
         <section>
           <h2 id="about-me">About Me</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="about-me-details">
+            <p>Artist; Musician; Avid Cyclist; Dinosaur Enthusiast; Coffee Addict. <br><br> I am an Esri-certified geospatial analyst with more than five years professional experience working with the full suite of Esri ArcGIS Desktop and Online products. In my career I've earned quite the reputation of being a relentless troubleshooter and creative problem-solver, with an eagerness to learn as well as teach others. 
+            </p>
+            <img id="portrait" src="/assets/images/kclark_portrait_straight_bw.jpg" alt="Katherine Clark Portrait">
+          </div>
         </section>
 
         <section>
@@ -44,19 +48,22 @@
           <div class="project-section">
             <div class="project-grid">
               <div class="project project-large">
-                <img src="/assets/images/placeholder.png" alt="First Project">
+                <a href="https://kclarkdev.github.io/horiseon-accessibility-refactor/" target="_blank"><img src="/assets/images/digital-marketing-meeting.jpg" alt="First Project"></a>
+                <div>
+                  <span>test</span>
+                </div>
               </div>
               <div class="project">
-                <img src="/assets/images/placeholder.png" alt="Second Project">
-              </div>
-              <div class="project">
-                <img src="/assets/images/placeholder.png" alt="Third Project">
-              </div>
-              <div class="project">
-                <img src="/assets/images/placeholder.png" alt="Third Project">
+                <img src="/assets/images/pomodoro.jfif" alt="Second Project">
               </div>
               <div class="project">
                 <img src="/assets/images/placeholder.png" alt="Third Project">
+              </div>
+              <div class="project">
+                <img src="/assets/images/placeholder.png" alt="Fourth Project">
+              </div>
+              <div class="project">
+                <img src="/assets/images/placeholder.png" alt="Fifth Project">
               </div>
               <!-- Add more projects as needed -->
             </div>
@@ -65,7 +72,7 @@
 
         <section>
           <h2 id="contact">Contact Me</h2>
-            <p>
+            <p class="contact-info-container">
               <span class="contact-info">
                 <a href="tel:+7035819368" class="contact-link">
                   <i class="fa-solid fa-phone"></i>Phone
@@ -94,7 +101,9 @@
         </section>
     </main>
 
-    <footer>Put footer stuff here...</footer>
+    <footer class="footer">
+      <p>Made with HTML, CSS, and ❤️</p>
+    </footer>
 
 </body>
 </html>
