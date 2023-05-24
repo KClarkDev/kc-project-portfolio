@@ -108,7 +108,7 @@ footer {
     transition: 0.5s;
 }
 
-.banner-container {
+.banner-container, .project-container {
     position: relative;
 }
 
@@ -123,7 +123,6 @@ footer {
 }
 
 .banner-text {
-
     position: absolute;
     bottom: 20px;
     right: 0;
@@ -138,7 +137,7 @@ footer {
     text-align: right;
 }
 
-.quote {
+.quote, .project-title {
     margin-bottom: 0;
     font-size: 1.1em;
     font-weight: bold;
@@ -181,14 +180,22 @@ grid-gap: 20px;
 grid-column: 1 / -1; /* Span the full width of the grid */
 }
 
-.project-description {
+.project-text {
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    bottom: 30px;
+    min-width: 40%;
+    left: 5px; /*start title banner on inside of image border*/
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 2%;
+    opacity: 50%; /*same opacity as project image*/
+    pointer-events: none; /*disable hover behavior acting independently of project image*/
+}
+
+.project-details {
+    margin-top: 1%;
+    font-size: .8em;
+    padding-bottom: 2%;
 }
 
 .project img {
@@ -198,10 +205,15 @@ opacity: 50%;
 border: var(--slate-blue-dark) solid 5px;
 }
 
-.project-large img:hover, .project img:hover, .project:hover {
+.project-large img:hover, .project img:hover, .project:hover, .project:hover .project-text {
     opacity: 100%; /*images become full color on hover*/
     transition: 0.5s;
     transform: scale(1.01); /*images grow slightly larger on hover*/
+}
+
+.project:hover .project-text {
+    box-shadow: 0px 0px 2px 2px var(--shadow);
+    left: 3px;
 }
 
 /*Contact info section styles*/
