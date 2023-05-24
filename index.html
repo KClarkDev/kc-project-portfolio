@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K. Clark Portfolio</title>
+    <!--import css styling-->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--import Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Montagu+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Montagu+Slab:wght@500&display=swap" rel="stylesheet">
+    <!--import font icons (Font-Awesome)-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -23,14 +26,24 @@
             Katherine Clark
         </h1>
         <nav>
-            <button type="button" class="button"><a href="#about-me">About Me</a></button>
-            <button type="button" class="button"><a href="#projects">My Work</a></button>
-            <button type="button" class="button"><a href="#contact">Contact Me</a></button>
-            <button type="button" class="button"><a href="https://docs.google.com/document/d/1vFLJ9oneScSPiOIf_aI_uFydCIx_3eKd/edit?usp=sharing&ouid=103731643921125893829&rtpof=true&sd=true" target="_blank">Resume</a></button><!--Link to Google Doc is temporary. Eventually, this should lead to an embedded PDF-->
+            <!--buttons navigate to sections on the current page-->
+            <button type="button" class="button">
+              <a href="#about-me">About Me</a>
+            </button>
+            <button type="button" class="button">
+              <a href="#projects">My Work</a>
+            </button>
+            <button type="button" class="button">
+              <a href="#contact">Contact Me</a>
+            </button>
+            <!--this button leads to an external page-->
+            <button type="button" class="button">
+              <a href="https://docs.google.com/document/d/1vFLJ9oneScSPiOIf_aI_uFydCIx_3eKd/edit?usp=sharing&ouid=103731643921125893829&rtpof=true&sd=true" target="_blank">Resume</a>
+            </button><!--Link to Google Doc is temporary. Eventually, this should lead to an embedded PDF-->
         </nav>
       </div>
       
-      <img class="banner-image" src="./assets/images/map_banner_stock.jpg" alt="#">
+      <img class="banner-image" src="./assets/images/map_banner_stock.jpg" alt="City Map Banner Image"><!--temporary placeholder image used, to be replaced later-->
     </header>
 
     <main class="container">
@@ -48,28 +61,26 @@
           <div class="project-section">
             <div class="project-grid">
               <div class="project project-large">
-                <a href="https://kclarkdev.github.io/horiseon-accessibility-refactor/" target="_blank"><img src="/assets/images/digital-marketing-meeting.jpg" alt="First Project"></a>
-                <div>
-                  <span>test</span>
-                </div>
+                <a href="https://kclarkdev.github.io/horiseon-accessibility-refactor/" target="_blank"><img src="/assets/images/digital-marketing-meeting.jpg" alt="Horiseon Accessibility Project Image"></a>
               </div>
               <div class="project">
-                <img src="/assets/images/pomodoro.jfif" alt="Second Project">
+                <a href="https://github.com/KClarkDev/pomodoro-timer" target="_blank"><img src="/assets/images/pomodoro.jfif" alt="Pomodoro Timer Project Image"></a>
               </div>
               <div class="project">
-                <img src="/assets/images/placeholder.png" alt="Third Project">
+                <img src="/assets/images/placeholder.png" alt="Third Project Placeholder">
               </div>
               <div class="project">
-                <img src="/assets/images/placeholder.png" alt="Fourth Project">
+                <img src="/assets/images/placeholder.png" alt="Fourth Project Placeholder">
               </div>
               <div class="project">
-                <img src="/assets/images/placeholder.png" alt="Fifth Project">
+                <img src="/assets/images/placeholder.png" alt="Fifth Project Placeholder">
               </div>
               <!-- Add more projects as needed -->
             </div>
           </div>
         </section>
 
+        <!--contact info section with icons/links. Links to external pages will open in a new tab-->
         <section>
           <h2 id="contact">Contact Me</h2>
             <p class="contact-info-container">
