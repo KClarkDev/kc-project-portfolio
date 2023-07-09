@@ -1,146 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>K. Clark Portfolio</title>
     <!--import css styling-->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!--import Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Montagu+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Montagu+Slab:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <!--import font icons (Font-Awesome)-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="linear-gradient-background">
       <div class="header-container">
-        <h1 class="page-title">
-            Katherine Clark
-        </h1>
+        <h1 class="page-title">Katherine Clark</h1>
         <nav>
-            <!--buttons navigate to sections on the current page-->
-            <button type="button" class="button">
-              <a href="#about-me">About Me</a>
-            </button>
-            <button type="button" class="button">
-              <a href="#projects">My Work</a>
-            </button>
-            <button type="button" class="button">
-              <a href="#contact">Contact Me</a>
-            </button>
-            <!--this button leads to an external page-->
-            <button type="button" class="button">
-              <a href="https://docs.google.com/document/d/1vFLJ9oneScSPiOIf_aI_uFydCIx_3eKd/edit?usp=sharing&ouid=103731643921125893829&rtpof=true&sd=true" target="_blank">Resume</a>
-            </button><!--Link to Google Doc is temporary. Eventually, this should lead to an embedded PDF-->
+          <!--buttons navigate to sections on the current page-->
+          <button type="button" class="button">
+            <a href="#about-me">About Me</a>
+          </button>
+          <button type="button" class="button">
+            <a href="#projects">My Work</a>
+          </button>
+          <button type="button" class="button">
+            <a href="#contact">Contact Me</a>
+          </button>
+          <!--this button leads to an external page-->
+          <button type="button" class="button">
+            <a
+              href="https://docs.google.com/document/d/1vFLJ9oneScSPiOIf_aI_uFydCIx_3eKd/edit?usp=sharing&ouid=103731643921125893829&rtpof=true&sd=true"
+              target="_blank"
+              >Resume</a
+            ></button
+          ><!--Link to Google Doc is temporary. Eventually, this should lead to an embedded PDF-->
         </nav>
       </div>
-      
+
       <div class="banner-container">
-        <img class="banner-image" src="./assets/images/map_banner_stock.jpg" alt="City Map Banner Image"><!--temporary placeholder image used, to be replaced later-->
+        <img
+          class="banner-image"
+          src="./assets/images/map_banner_stock.jpg"
+          alt="City Map Banner Image"
+        /><!--temporary placeholder image used, to be replaced later-->
         <div class="banner-text">
-          <div class="quote">The goal is not simply to 'work hard, play hard.'<br> The goal is to make our work and our play indistinguishable.</div>
+          <div class="quote">
+            The goal is not simply to 'work hard, play hard.'<br />
+            The goal is to make our work and our play indistinguishable.
+          </div>
           <div class="quote-attribute">-Simon Sinek</div>
         </div>
       </div>
-
     </header>
 
     <main class="container">
-        <section>
-          <h2 id="about-me">About Me</h2>
-          <div class="about-me-details">
-            <p>Artist; Musician; Avid Cyclist; Dinosaur Enthusiast; Coffee Addict. <br><br> I am an Esri-certified geospatial analyst with more than five years professional experience working with the full suite of Esri ArcGIS Desktop and Online products. In my career I've earned quite the reputation of being a relentless troubleshooter and creative problem-solver, with an eagerness to learn as well as teach others. 
-            </p>
-            <!--TODO: Add more text here to bio. Ideally, text should be the same height/amount as the size of the portrait-->
-            <img id="portrait" src="./assets/images/kclark_portrait_straight_bw.jpg" alt="Katherine Clark Portrait">
-          </div>
-        </section>
+      <section>
+        <h2 id="about-me">About Me</h2>
+        <div class="about-me-details">
+          <p>
+            Artist; Musician; Avid Cyclist; Dinosaur Enthusiast; Coffee Addict.
+            <br /><br />
+            I am an Esri-certified geospatial analyst with more than five years
+            professional experience working with the full suite of Esri ArcGIS
+            Desktop and Online products. In my career I've earned quite the
+            reputation of being a relentless troubleshooter and creative
+            problem-solver, with an eagerness to learn as well as teach others.
+          </p>
+          <!--TODO: Add more text here to bio. Ideally, text should be the same height/amount as the size of the portrait-->
+          <img
+            id="portrait"
+            src="./assets/images/kclark_portrait_straight_bw.jpg"
+            alt="Katherine Clark Portrait"
+          />
+        </div>
+      </section>
 
-        <section>
-          <h2 id="projects">My Work</h2>
-          <div class="project-section">
-            <div class="project-grid">
-              <div class="project project-large project-container">
-                <a href="https://kclarkdev.github.io/horiseon-accessibility-refactor/" target="_blank"><img src="./assets/images/digital-marketing-meeting.jpg" alt="Horiseon Accessibility Project Image"></a>
-                <div class="project-text">
-                  <div class="project-title">Horiseon Accessibility</div>
-                  <div class="project-details">HTML, CSS</div>
-                </div>
+      <section>
+        <h2 id="projects">My Work</h2>
+        <div class="project-section">
+          <div class="project-grid">
+            <!--primary featured project-->
+            <div class="project project-large project-container">
+              <a href="#" target="_blank"
+                ><img
+                  src="./assets/images/gardener.jpeg"
+                  alt="Garden Planner Project Image"
+              /></a>
+              <div class="project-text">
+                <div class="project-title">Garden Planner</div>
+                <div class="project-details">Javascript, APIs, Bulma</div>
               </div>
-              <div class="project project-container">
-                <a href="https://github.com/KClarkDev/pomodoro-timer" target="_blank"><img src="./assets/images/pomodoro.jfif" alt="Pomodoro Timer Project Image"></a>
-                <div class="project-text">
-                  <div class="project-title">Pomodoro Timer</div>
-                  <div class="project-details">Python</div>
-                </div>
-              </div>
-              <div class="project project-container">
-                <img src="./assets/images/placeholder.png" alt="Third Project Placeholder">
-                <div class="project-text">
-                  <div class="project-title">More projects coming soon!</div>
-                </div>
-              </div>
-              <div class="project project-container">
-                <img src="./assets/images/placeholder.png" alt="Fourth Project Placeholder">
-                <div class="project-text">
-                  <div class="project-title">More projects coming soon!</div>
-                </div>
-              </div>
-              <div class="project project-container">
-                <img src="./assets/images/placeholder.png" alt="Fifth Project Placeholder">
-                <div class="project-text">
-                  <div class="project-title">More projects coming soon!</div>
-                </div>
-              </div>
-              <!-- Add more projects as needed -->
             </div>
-          </div>
-        </section>
 
-        <!--contact info section with icons/links. Links to external pages will open in a new tab-->
-        <section>
-          <h2 id="contact">Contact Me</h2>
-            <p class="contact-info-container">
-              <span class="contact-info">
-                <a href="tel:+7035819368" class="contact-link">
-                  <i class="fa-solid fa-phone"></i>Phone
-                </a>
-              </span>
-              <span class="contact-info">
-                <a href="mailto:kec0892@gmail.com" class="contact-link">
-                  <i class="fa-solid fa-envelope"></i>Email
-                </a>
-              </span>
-              <span class="contact-info">
-                <a href="https://github.com/KClarkDev" class="contact-link">
-                  <i class="fa-brands fa-github"></i>GitHub
-                </a>
-              </span>
-              <span class="contact-info">
-                <a href="https://www.linkedin.com/in/kclark-gis/" class="contact-link">
-                  <i class="fa-brands fa-linkedin"></i>LinkedIn
-                </a>
-              </span>
-              <span class="contact-info">
-                <a href="https://www.instagram.com/keclark_art/" class="contact-link">
-                  <i class="fa-brands fa-instagram"></i>Instagram</a>
-              </span>
-            </p>
-        </section>
+            <!--Pomodoro Timer-->
+            <div class="project project-container">
+              <a
+                href="https://github.com/KClarkDev/pomodoro-timer"
+                target="_blank"
+                ><img
+                  src="./assets/images/pomodoro.jfif"
+                  alt="Pomodoro Timer Project Image"
+              /></a>
+              <div class="project-text">
+                <div class="project-title">Pomodoro Timer</div>
+                <div class="project-details">Python</div>
+              </div>
+            </div>
+            <!--Timed Quiz Game-->
+            <div class="project project-container">
+              <a
+                href="https://kclarkdev.github.io/timed-quiz-game/"
+                target="_blank"
+                ><img
+                  src="./assets/images/quiz-question.jpeg"
+                  alt="Pomodoro Timer Project Image"
+              /></a>
+              <div class="project-text">
+                <div class="project-title">Timed Quiz Game</div>
+                <div class="project-details">HTML, CSS, JavaScript</div>
+              </div>
+            </div>
+
+            <!--Work Day Scheduler-->
+            <div class="project project-container">
+              <a
+                href="https://kclarkdev.github.io/work-day-scheduler/"
+                target="_blank"
+                ><img
+                  src="./assets/images/planner.jpeg"
+                  alt="Workday Scheduler Project Image"
+              /></a>
+              <div class="project-text">
+                <div class="project-title">Workday Scheduler</div>
+                <div class="project-details">Javascript, dayjs, jquery</div>
+              </div>
+            </div>
+            <!--Weather Dashboard WIP-->
+            <div class="project project-container">
+              <a href="#" target="_blank"
+                ><img
+                  src="./assets/images/placeholder_1200x800.png"
+                  alt="Weather Dashboard Project Image"
+              /></a>
+              <div class="project-text">
+                <div class="project-title">Weather Dashboard</div>
+                <div class="project-details">Details coming soon!</div>
+              </div>
+            </div>
+            <!--Password Generator-->
+            <div class="project project-container">
+              <a
+                href="https://kclarkdev.github.io/password-generator/"
+                target="_blank"
+                ><img
+                  src="./assets/images/password-gen.jpeg"
+                  alt="Password Generator Project Image"
+              /></a>
+              <div class="project-text">
+                <div class="project-title">Password Generator</div>
+                <div class="project-details">HTML, CSS, JavaScript</div>
+              </div>
+            </div>
+            <!--Puppy Love-->
+            <div class="project project-container">
+              <a href="https://kclarkdev.github.io/puppy-love/" target="_blank"
+                ><img
+                  src="./assets/images/puppy-love-husky.jpg"
+                  alt="Puppy Love Project Image"
+              /></a>
+              <div class="project-text">
+                <div class="project-title">Puppy Love</div>
+                <div class="project-details">CSS Animations</div>
+              </div>
+            </div>
+            <!--Horiseon Refactor-->
+            <div class="project project-container">
+              <a
+                href="https://kclarkdev.github.io/horiseon-accessibility-refactor/"
+                target="_blank"
+                ><img
+                  src="./assets/images/digital-marketing-meeting.jpg"
+                  alt="Horiseon Accessibility Project Image"
+              /></a>
+              <div class="project-text">
+                <div class="project-title">Horiseon Accessibility</div>
+                <div class="project-details">HTML, CSS</div>
+              </div>
+            </div>
+            <!-- Add more projects as needed -->
+          </div>
+        </div>
+      </section>
+
+      <!--contact info section with icons/links. Links to external pages will open in a new tab-->
+      <section>
+        <h2 id="contact">Contact Me</h2>
+        <p class="contact-info-container">
+          <span class="contact-info">
+            <a href="tel:+7035819368" class="contact-link">
+              <i class="fa-solid fa-phone"></i>Phone
+            </a>
+          </span>
+          <span class="contact-info">
+            <a href="mailto:kec0892@gmail.com" class="contact-link">
+              <i class="fa-solid fa-envelope"></i>Email
+            </a>
+          </span>
+          <span class="contact-info">
+            <a href="https://github.com/KClarkDev" class="contact-link">
+              <i class="fa-brands fa-github"></i>GitHub
+            </a>
+          </span>
+          <span class="contact-info">
+            <a
+              href="https://www.linkedin.com/in/kclark-gis/"
+              class="contact-link"
+            >
+              <i class="fa-brands fa-linkedin"></i>LinkedIn
+            </a>
+          </span>
+          <span class="contact-info">
+            <a
+              href="https://www.instagram.com/keclark_art/"
+              class="contact-link"
+            >
+              <i class="fa-brands fa-instagram"></i>Instagram</a
+            >
+          </span>
+        </p>
+      </section>
     </main>
 
     <footer>
       <span class="footer-text">Made with HTML, CSS, and ❤️</span>
       <!--TODO: add additional resources, like a link to the current pages repo, image credits, etc.-->
     </footer>
-
-</body>
+  </body>
 </html>
